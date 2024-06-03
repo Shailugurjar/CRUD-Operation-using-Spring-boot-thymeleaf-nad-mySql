@@ -14,6 +14,7 @@ public class Student {
 	    private Long id;
 	    private String name;
 	    private Integer number;
+        
 	    
 		public Long getId() {
 			return id;
@@ -27,12 +28,12 @@ public class Student {
 		public void setName(String name) {
 			this.name = name;
 		}
-		public Integer getNumber() {
-			return number;
-		}
-		public void setNumber(Integer number) {
-			this.number = number;
-		}
+		// public Integer getNumber() {
+		// 	return number;
+		// }
+		// public void setNumber(Integer number) {
+		// 	this.number = number;
+		// }
 
 	    
 }
